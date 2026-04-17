@@ -1,0 +1,89 @@
+<div class="providers-page">
+
+  <!-- HEADER (reuse same as dashboard if shared) -->
+<header class="header">
+  <div class="logo">
+    <div class="logo-box">S</div>
+    <span>SIZA <small>Admin Portal</small></span>
+  </div>
+
+  <div class="header-actions">
+    <span class="icon">🔔</span>
+    <span class="icon">✉️</span>
+    <div class="profile">DN</div>
+  </div>
+</header>
+
+  <!-- NAV -->
+  <div class="nav-bar">
+    <span class="active">Provider Management</span>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="providers-content">
+
+    <!-- FILTER TABS -->
+    <div class="tabs">
+      <button class="tab active">All Jobs</button>
+      <button class="tab">Pending</button>
+      <button class="tab">In Progress</button>
+      <button class="tab">Suspended</button>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="toolbar">
+      <input type="text" placeholder="Search..." />
+    </div>
+
+    <!-- TABLE -->
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Job ID</th>
+            <th>Customer</th>
+            <th>Service</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1031</td>
+            <td>Sarah L.</td>
+            <td>House Cleaning</td>
+            <td><span class="status pending">Pending</span></td>
+            <td><button class="action-btn">View</button></td>
+          </tr>
+
+          <tr>
+            <td>1482</td>
+            <td>Michael T.</td>
+            <td>Garden Service</td>
+            <td><span class="status progress">In Progress</span></td>
+            <td><button class="action-btn">View</button></td>
+          </tr>
+
+          <tr>
+            <td>1664</td>
+            <td>Linda R.</td>
+            <td>Garden Service</td>
+            <td><span class="status completed">Completed</span></td>
+            <td><button class="action-btn">View</button></td>
+          </tr>
+
+          <tr>
+            <td>1718</td>
+            <td>Parhae K.</td>
+            <td>Maintenance</td>
+            <td><span class="status danger">Suspended</span></td>
+            <td><button class="action-btn">View</button></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,92 @@
+<div class="dashboard-page">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <div class="logo-box">S</div>
+      <span>SIZA <small>Admin Portal</small></span>
+    </div>
+
+    <div class="header-actions">
+      <span class="icon">🔔</span>
+      <span class="icon">✉️</span>
+      <div class="profile">DN</div>
+    </div>
+  </header>
+
+  <!-- NAV BAR -->
+  <div class="nav-bar">
+    <span class="active">Dashboard</span>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="dashboard-content">
+
+    <!-- STATS -->
+    <div class="stats">
+      <div class="card" (click)="onProvidersList()">
+        <p>Total Providers</p>
+        <h2>1,250</h2>
+      </div>
+
+      <div class="card">
+        <p>Active Jobs</p>
+        <h2 class="blue">340</h2>
+      </div>
+
+      <div class="card">
+        <p>Pending Approvals</p>
+        <h2 class="red">28</h2>
+      </div>
+
+      <div class="card">
+        <p>Monthly Revenue</p>
+        <h2>R84,500</h2>
+      </div>
+    </div>
+
+    <!-- MAIN GRID -->
+    <div class="main-grid">
+
+      <!-- CHART -->
+      <div class="card large">
+        <h3>Job Activity</h3>
+        <div class="chart-placeholder">
+          📊 Chart goes here
+        </div>
+      </div>
+
+      <!-- REQUESTS -->
+      <div class="card">
+        <h3>Recent Requests</h3>
+
+        <div class="request">
+          <div class="avatar">JS</div>
+          <div>
+            <p>Jobx Steam</p>
+            <small>Rooftop cleanup • 13.0%</small>
+          </div>
+        </div>
+
+        <div class="request">
+          <div class="avatar">JC</div>
+          <div>
+            <p>Jobx Clean Services</p>
+            <small>Street cleanup • 5.5%</small>
+          </div>
+        </div>
+
+        <div class="request">
+          <div class="avatar">EC</div>
+          <div>
+            <p>Emvny Catering</p>
+            <small>Move equipment • 10%</small>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
