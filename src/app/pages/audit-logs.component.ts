@@ -1,0 +1,4 @@
+import { Component } from '@angular/core';
+@Component({ standalone: true, template: `
+<div class="page-head"><div><h1>Audit Logs</h1><p>Track administrative activity</p></div></div><div class="panel"><div class="filters"><input placeholder="Search activity"><select><option>All Actions</option></select><input type="date"></div><table><thead><tr><th>Date / Time</th><th>Administrator</th><th>Action</th><th>Record</th><th>Details</th></tr></thead><tbody><tr><td>24 Aug 2026, 14:20</td><td>Admin User</td><td>Approved Provider</td><td>PRO-102</td><td>Provider verification approved</td></tr><tr><td>24 Aug 2026, 13:50</td><td>Super Admin</td><td>Updated User</td><td>USR-123</td><td>Account status changed</td></tr><tr><td>24 Aug 2026, 12:15</td><td>Admin User</td><td>Updated Category</td><td>CAT-004</td><td>Gardening category edited</td></tr></tbody></table></div>`})
+export class AuditLogsComponent {}

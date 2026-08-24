@@ -1,0 +1,6 @@
+import { Component } from '@angular/core';
+@Component({ standalone: true, template: `
+<div class="page-head"><div><h1>Reports</h1><p>Operational and financial reporting</p></div><button class="btn">⇩ Export Report</button></div>
+<div class="kpi-grid"><div class="kpi"><div><small>New Users</small><strong>318</strong><em>This month</em></div></div><div class="kpi"><div><small>Approved Providers</small><strong>96</strong><em>This month</em></div></div><div class="kpi"><div><small>Completed Bookings</small><strong>407</strong><em>This month</em></div></div><div class="kpi"><div><small>Commission</small><strong>R 52,840</strong><em>This month</em></div></div></div>
+<div class="grid-2"><div class="panel chart-placeholder"><h3>Bookings by Status</h3><div class="bars"><i style="height:65%">Requested</i><i style="height:80%">Accepted</i><i style="height:55%">In Progress</i><i style="height:95%">Completed</i><i style="height:30%">Cancelled</i></div></div><div class="panel"><h3>Top Service Categories</h3><table><tbody><tr><td>Cleaning</td><td>142 bookings</td></tr><tr><td>Plumbing</td><td>118 bookings</td></tr><tr><td>Electrical</td><td>96 bookings</td></tr><tr><td>Gardening</td><td>74 bookings</td></tr></tbody></table></div></div>`})
+export class ReportsComponent {}

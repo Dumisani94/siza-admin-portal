@@ -1,0 +1,6 @@
+import { Component } from '@angular/core';
+@Component({ standalone: true, template: `
+<div class="breadcrumbs">Bookings / BK-000125</div><h1>Booking Details</h1>
+<div class="grid-3"><div class="panel"><h3>Booking Information</h3><dl><dt>Booking Ref</dt><dd>BK-000125</dd><dt>Status</dt><dd><span class="badge success">Accepted</span></dd><dt>Payment Status</dt><dd><span class="badge success">Paid</span></dd><dt>Date</dt><dd>24 May 2026, 10:00</dd><dt>Service</dt><dd>House Cleaning</dd><dt>Amount</dt><dd>R 610.00</dd><dt>SIZA Commission</dt><dd>R 65.00</dd></dl></div><div class="panel"><h3>Customer</h3><div class="avatar big-avatar">JD</div><h3>John Doe</h3><p>082 123 4567</p><p>john.doe@email.com</p><p>123 Main Street, Johannesburg, 2000</p></div><div class="panel"><h3>Provider</h3><div class="avatar provider-avatar">CP</div><h3>CleanPro Services</h3><p>082 111 2222</p><p>info@cleanpro.co.za</p></div></div>
+<div class="panel top-gap"><h3>Timeline</h3><div class="timeline"><span>● Requested<small>24 May 09:00</small></span><span>● Accepted<small>24 May 10:15</small></span><span>● In Progress<small>24 May 11:00</small></span><span>● Completed<small>24 May 13:30</small></span></div></div>`})
+export class BookingDetailsComponent {}
